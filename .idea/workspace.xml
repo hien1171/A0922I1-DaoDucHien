@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2946b3-b1ad-424a-a35f-ff9ff10c2383" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/form/taobangdongian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form/taoformdongian.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ma_gia_luu_do/maxabc.drawio.drawio.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/ma_gia_luu_do/maxabc.drawio.drawio.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form/taobangnangcao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/taoformdongian.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/taoformdongian.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,8 @@
       <updated>1665306886002</updated>
       <workItem from="1665306890071" duration="38000" />
       <workItem from="1665306941981" duration="35000" />
-      <workItem from="1665405456261" duration="13399000" />
+      <workItem from="1665405456261" duration="18794000" />
+      <workItem from="1665485223004" duration="6644000" />
     </task>
     <servers />
   </component>
@@ -83,6 +83,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="654" y="295" key="#Notifications" timestamp="1665306972264">
