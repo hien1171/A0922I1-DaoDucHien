@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng máy tính</title>
+</head>
+<body>
+<form>
+    <h1>Caculator</h1>
+    <input id="A" type="number" name="a"/>
+    <input id="B" type="number" name="b"/>
+    <br>
+    <br>
+    <input type="button" onclick=" add ()" name="addition" value="Addition(+)"/>
+    <input type="button" onclick="sub ()" name="subtraction" value="Subtraction(-)"/>
+    <input type="button" onclick="mul ()" name="multiplication" value="Multiplication(x)"/>
+    <input type="button" onclick="div ()" name="division" value="Division(/)"/>
+    <br>
+    <br>
+    <p id="result">Result</p>
+    <script>
+        let numA = document.getElementById("A");
+        let numB = document.getElementById("B");
+
+        function add () {
+            let addition;
+            addition = parseFloat(numA.value) + parseFloat(numB.value);
+            document.getElementById("result").innerHTML = addition;
+        }
+        function sub (){
+            let subtraction;
+            subtraction = parseFloat(numA.value) - parseFloat(numB.value);
+            document.getElementById("result").innerHTML = subtraction;
+        }
+        function mul (){
+            let multiplication;
+            multiplication = parseFloat(numA.value) * parseFloat(numB.value);
+            document.getElementById("result").innerHTML = multiplication;
+        }
+        function div (){
+            let division;
+            division = parseFloat(numA.value) / parseFloat(numB.value);
+            document.getElementById("result").innerHTML = division;
+        }
+    </script>
+</form>
+</body>
+</html>

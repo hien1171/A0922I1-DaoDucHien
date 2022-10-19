@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<input type="number" name="" id="money">
+<select name="from_cur" id="from_cur">
+    <option value="VN">VietNam</option>
+    <option value="USD">USD</option>
+</select>
+<select name="to_cur" id="to_cur">
+    <option value="USD">USD</option>
+    <option value="VN">VietNam</option>
+</select>
+<button onclick="Convert()">Convert</button>
+<br>
+<p>Kết Quả: <span id="kq"></span> </p>
+
+<script>
+    const USDtoVN = 23000 ;
+    let money = document.getElementById("money");
+    let from_cur = document.getElementById("from_cur");
+    let to_cur = document.getElementById("to_cur");
+    let kq = document.getElementById("kq");
+
+    function Convert() {
+
+        if (from_cur.value === "USD" && to_cur.value === "VN") {
+            kq.innerHTML = money.value * USDtoVN;
+        } else if (from_cur.value === "VN" && to_cur.value == "USD") {
+            kq.innerHTML = money.value / USDtoVN;
+        }
+    }
+</script>
+</body>
+
+</html>
