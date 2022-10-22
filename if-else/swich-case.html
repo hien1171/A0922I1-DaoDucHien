@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>swich case </title>
+</head>
+<body>
+
+    <input type="text" name="text" value="" id="text">
+
+<button type="button" value="" name="" onclick="tinh()">Tính số ngày</button>
+<p id="result"></p>
+</body>
+<script>
+
+    function tinh() {
+        let result = document.getElementById("text");
+        result = parseInt(result.value);
+        switch (result) {
+            case 1 :
+            case 3 :
+            case 5 :
+            case 7 :
+            case 8 :
+            case 10 :
+            case 12 :
+                document.getElementById('result').innerText = ("Thang " + result + " co 31 ngay ");
+                break;
+            case  4:
+            case  6:
+            case  9:
+            case 11:
+                document.getElementById('result').innerText = ("Thang " + result + " co 30 ngay ");
+                break;
+            case 2 :
+                document.getElementById('result').innerText = ("Thang " + result + " co 28 hoac 29 ngay ");
+                break;
+            default :
+                document.getElementById('result').innerText =('Vui long nhap mot thang tu thang 1 den thang 12');
+        }
+    }
+</script>
+</html>

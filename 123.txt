@@ -1,1 +1,29 @@
-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
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Do You Love Me</title>
+    <style>
+        #no_click{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<h1>Do You Love Me?</h1>
+<input type="button" id="yes_click" value="Có" onclick="yes_click()">
+<input type="button" id="no_click" value="Không" onclick="no_click()">
+
+<script>
+    function no_click() {
+        let x = Math.floor(Math.random() * window.innerWidth);
+        let y = Math.floor(Math.random() * window.innerHeight);
+        document.getElementById("no_click").style.left = x + 'px';
+        document.getElementById("no_click").style.top = y + 'px';
+    }
+    function yes_click() {
+        alert('I love you too');
+    }
+</script>
+</body>
+</html>

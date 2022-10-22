@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doyouloveme  </title>
+
+</head>
+<body>
+
+<h1 style="color: hotpink">Do you love me ?  </h1>
+<input id="yess" type="button" onclick="yesClick()" value="yes" style="color:navajowhite; background: deeppink"/>
+<input id="nohope" type="button" onclick="noHope()"  onmouseover="noHope()" value="no" style=" color: hotpink;background: black; position:absolute"  />
+</body>
+<script>
+    function yesClick()
+    {
+        alert("I love u too :3 ");
+
+
+
+    }
+    function noHope()
+    {
+                let x = Math.round(Math.random() * window.innerWidth);
+                let y = Math.round(Math.random() * window.innerHeight);
+                document.getElementById('nohope').style.left = x + 'px';
+                document.getElementById('nohope').style.top = y + 'px';
+
+
+    }
+
+</script>
+</html>
