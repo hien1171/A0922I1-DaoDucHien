@@ -20,13 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2946b3-b1ad-424a-a35f-ff9ff10c2383" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/if-else/cannang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/if-else/doyouloveme.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/if-else/good-fast-cheap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/if-else/maytinhdongian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/if-else/swich-case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for/buttongamevui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for/fibonaci.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for/luyentap2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for/songuyento.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for/thuchanh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/if-else/gamepuzz.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ma_gia_luu_do/l.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/123.txt" beforeDir="false" afterPath="$PROJECT_DIR$/123.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/if-else/doyouloveme.html" beforeDir="false" afterPath="$PROJECT_DIR$/if-else/doyouloveme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/if-else/good-fast-cheap.html" beforeDir="false" afterPath="$PROJECT_DIR$/if-else/good-fast-cheap.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +61,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RunManager">
+    <configuration name="thuchanh.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/for/thuchanh.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.thuchanh.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -79,7 +92,16 @@
       <workItem from="1666012679616" duration="3316000" />
       <workItem from="1666163372902" duration="5525000" />
       <workItem from="1666183550989" duration="5894000" />
-      <workItem from="1666356127967" duration="5754000" />
+      <workItem from="1666356127967" duration="7120000" />
+      <workItem from="1666587072950" duration="11172000" />
+      <workItem from="1666679805749" duration="253000" />
+      <workItem from="1666680079660" duration="44000" />
+      <workItem from="1666680243758" duration="19000" />
+      <workItem from="1666786787330" duration="7510000" />
+      <workItem from="1666865443028" duration="674000" />
+      <workItem from="1666874930658" duration="683000" />
+      <workItem from="1667045181438" duration="1000" />
+      <workItem from="1667189135230" duration="9861000" />
     </task>
     <servers />
   </component>
@@ -111,5 +133,20 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="525" y="135" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1666012638430" />
+    <state x="431" y="181" key="search.everywhere.popup" timestamp="1667189156767">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1667189156767" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/for/buttongamevui.html</url>
+          <line>20</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

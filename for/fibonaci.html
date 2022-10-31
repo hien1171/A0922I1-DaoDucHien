@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fibonaci</title>
+</head>
+<body>
+
+</body>
+<script>
+    let count, first_term = 0, second_term = 1, next_term, i;
+
+    count=prompt("");
+    for ( i = 0 ; i < count ; i++ )
+    {
+        if ( i <= 1 )
+            next_term = i;
+        else
+        {
+            next_term = first_term + second_term;
+            first_term = second_term;
+            second_term = next_term;
+        }
+      document.write(next_term+",");
+    }
+
+</script>
+</html>

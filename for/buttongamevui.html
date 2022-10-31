@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gamevui </title>
+</head>
+<body>
+
+    <input id="button" type="button" onclick="choi()" value="choi "  />
+ <script>
+ function choi() {
+     let a = +prompt("Nhap ");
+     let b=+prompt("Nhap b lon hon a : ");
+
+
+
+     let random = Math.floor(Math.random() * (b - a)) + a;
+     let c = +prompt("doan so ");
+
+     let check = 0;
+     for(check=0;check<2; check++) {
+
+         if (c === random) {
+             alert("chuc mung ");
+             check=3;
+             continue;
+
+         } else if (c < random) {
+             alert(" be hon");
+             let k=prompt("doan lai");
+
+         } else {
+             alert("lon hon");
+             let k=prompt("doan lai");
+         }
+
+
+
+     }
+     alert("choi lai ");
+
+ }
+
+
+</script>
+
+</body>
+</html>

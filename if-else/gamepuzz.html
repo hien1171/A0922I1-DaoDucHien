@@ -2,14 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>good-fast-cheap</title>
+    <title>Good fast cheap</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            border-collapse: collapse;
+            border: solid;
+            text-align: center;
+            cellpadding="10px;
+        }
+
+    </style>
 </head>
 <body>
-
-   <input type="radio" value="good " id="good" onclick="check(1)"><label>Good</label><br>
-    <input type="radio" value="fast" id="fast" onclick="check(2)"><label>Fast</label><br>
-   <input type="radio" value="cheap" id="cheap" onclick="check(3)"><label>Cheap </label><br>
-
+<div>
+    <label for="good">Good</label><input type="radio" id="good" onclick="check(1)"><br>
+    <label for="fast">Fast</label><input type="radio" id="fast" onclick="check(2)"><br>
+    <label for="cheap">Cheap</label><input type="radio" id="cheap" onclick="check(3)"><br>
+</div>
 <script>
     let good = document.getElementById('good');
     let fast = document.getElementById('fast');
@@ -23,7 +34,7 @@
                 }
                 break;
             case 2:
-                if (good.checked && cheap.checked) {
+                if (fast.checked && cheap.checked) {
                     good.checked = false;
                 }
                 break;
