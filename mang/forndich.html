@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formdich</title>
+</head>
+<body>
+
+<input type="text" id="trans" />
+<input  type="button" onclick="translate()" value="Translate" />
+
+</body>
+<script>
+    let word=document.getElementById("trans");
+    let vietnamese = ["một","hai","ba","bốn"];
+    let english=["one","two","three","four"];
+
+    function translate() {
+        let i=0;
+        for( i=0;i<english.length;i++){
+            if(word===english[i]) {
+                document.write(vietnamese[i]);
+
+            }
+            else document.write("not found");
+        }
+
+
+    }
+
+</script>
+
+</html>

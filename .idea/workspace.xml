@@ -20,16 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2946b3-b1ad-424a-a35f-ff9ff10c2383" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/for/buttongamevui.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/for/fibonaci.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/for/luyentap2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/for/songuyento.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/for/thuchanh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/if-else/gamepuzz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ma_gia_luu_do/l.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mang/bt1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mang/forndich.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mang/tictactoe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/if-else/doyouloveme.html" beforeDir="false" afterPath="$PROJECT_DIR$/if-else/doyouloveme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/if-else/good-fast-cheap.html" beforeDir="false" afterPath="$PROJECT_DIR$/if-else/good-fast-cheap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for/luyentap2.html" beforeDir="false" afterPath="$PROJECT_DIR$/for/luyentap2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for/songuyento.html" beforeDir="false" afterPath="$PROJECT_DIR$/for/songuyento.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html" beforeDir="false" afterPath="$PROJECT_DIR$/html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +98,7 @@
       <workItem from="1666865443028" duration="674000" />
       <workItem from="1666874930658" duration="683000" />
       <workItem from="1667045181438" duration="1000" />
-      <workItem from="1667189135230" duration="9861000" />
+      <workItem from="1667189135230" duration="21414000" />
     </task>
     <servers />
   </component>
