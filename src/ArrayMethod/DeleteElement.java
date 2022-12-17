@@ -19,19 +19,20 @@ public class DeleteElement {
 
         System.out.print("Enter your number you want to delete : ");
         int num= scanner.nextInt();
-        int index = 0;
+
         for (int j = 0; j <array.length ; j++) {
             if(num==array[j]){
-                System.out.println(j);
+                for (i = j; i < array.length ; i++) {
+                    if(i== array.length-1){
+                        array[i]=0;
+                        break;
+                    }
+                    array[i]=array[i+1];
+                }
             }
-             index=j;
-        }
-        for (int j = index; j < array.length-1 ; j++) {
-            int temp=array[j];
-            array[j]=array[j+1];
-            array[j+1]=temp;
 
         }
+
         System.out.printf("\n%-20s%s", "Delete array: ", "");
         for (int j = 0; j < array.length; j++) {
             System.out.print(array[j] + "\t");
