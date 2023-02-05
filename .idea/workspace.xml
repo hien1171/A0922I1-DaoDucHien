@@ -2,6 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5664b23e-a846-48f6-87a4-3f36f8660554" name="Changes" comment="baitap">
+      <change afterPath="$PROJECT_DIR$/src/ArrayMethod/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fpt/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fpt/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fpt/Fraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fpt/menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_cllection_framework/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_cllection_framework/ProductManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_cllection_framework/ProductManager2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_cllection_framework/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack_queue/CountWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack_queue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack_queue/ReverseArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Circle">
+  <component name="RunManager" selected="Application.ReverseArray">
     <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstract_interface.Circle" />
       <module name="module2" />
@@ -66,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstract_interface.Shape" />
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack_queue.ReverseArray" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstract_interface.*" />
+          <option name="PATTERN" value="stack_queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstract_interface.ShapeTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayMethod.Test" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstract_interface.*" />
+          <option name="PATTERN" value="ArrayMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Square" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstract_interface.Square" />
+    <configuration name="menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fpt.menu" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstract_interface.*" />
+          <option name="PATTERN" value="fpt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseArray" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.menu" />
         <item itemvalue="Application.Circle" />
         <item itemvalue="Application.Rectangle" />
-        <item itemvalue="Application.ShapeTest" />
-        <item itemvalue="Application.Square" />
-        <item itemvalue="Application.Shape" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +160,24 @@
       <workItem from="1672407759568" duration="470000" />
       <workItem from="1672408316694" duration="603000" />
       <workItem from="1673107375347" duration="700000" />
+      <workItem from="1673158422482" duration="201000" />
+      <workItem from="1673161307467" duration="502000" />
+      <workItem from="1673194292245" duration="6000" />
+      <workItem from="1673223735597" duration="4110000" />
+      <workItem from="1673230326119" duration="41000" />
+      <workItem from="1673263204058" duration="5403000" />
+      <workItem from="1673320070366" duration="611000" />
+      <workItem from="1673407131996" duration="4121000" />
+      <workItem from="1673435562264" duration="1264000" />
+      <workItem from="1673440401569" duration="873000" />
+      <workItem from="1673445613332" duration="630000" />
+      <workItem from="1673688064882" duration="1455000" />
+      <workItem from="1674321878827" duration="572000" />
+      <workItem from="1675256699546" duration="1166000" />
+      <workItem from="1675345860126" duration="671000" />
+      <workItem from="1675423064415" duration="6218000" />
+      <workItem from="1675436259195" duration="615000" />
+      <workItem from="1675537734334" duration="187000" />
     </task>
     <task id="LOCAL-00001" summary="baitap">
       <created>1671195046247</created>
@@ -183,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672406009229</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="baitap">
+      <created>1673158614731</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673158614731</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
