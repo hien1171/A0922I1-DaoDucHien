@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5664b23e-a846-48f6-87a4-3f36f8660554" name="Changes" comment="baitap">
-      <change afterPath="$PROJECT_DIR$/src/ArrayMethod/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fpt/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fpt/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fpt/Fraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fpt/menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_cllection_framework/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_cllection_framework/ProductManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_cllection_framework/ProductManager2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_cllection_framework/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/list/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack_queue/CountWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack_queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack_queue/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/search/IncreasingString2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +40,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ReverseArray">
-    <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstract_interface.Circle" />
+  <component name="RunManager" selected="Application.IncreasingString2">
+    <configuration name="IncreasingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.IncreasingString" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstract_interface.*" />
+          <option name="PATTERN" value="search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +54,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstract_interface.Rectangle" />
+    <configuration name="IncreasingString2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.IncreasingString2" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstract_interface.*" />
+          <option name="PATTERN" value="search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IncreasingString2" />
+        <item itemvalue="Application.IncreasingString" />
         <item itemvalue="Application.ReverseArray" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.menu" />
-        <item itemvalue="Application.Circle" />
-        <item itemvalue="Application.Rectangle" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +166,13 @@
       <workItem from="1675423064415" duration="6218000" />
       <workItem from="1675436259195" duration="615000" />
       <workItem from="1675537734334" duration="187000" />
+      <workItem from="1675583527259" duration="985000" />
+      <workItem from="1675666213013" duration="619000" />
+      <workItem from="1675826616143" duration="681000" />
+      <workItem from="1675828067795" duration="2022000" />
+      <workItem from="1675861385256" duration="3353000" />
+      <workItem from="1675992446479" duration="4170000" />
+      <workItem from="1676087863437" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="baitap">
       <created>1671195046247</created>
@@ -221,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673158614731</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="baitap">
+      <created>1675583812790</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675583812790</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
