@@ -3,7 +3,7 @@ package access_modifier;
 public class Student {
     private String name="John";
     private String classes="A09";
-    Student(){
+    public Student(){
 
     }
 
