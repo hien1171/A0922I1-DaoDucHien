@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62cc32b6-0b5d-44b8-8df5-965c697b8f72" name="Changes" comment="baitap">
-      <change afterPath="$PROJECT_DIR$/src/java_collection_framework/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/search/increasingString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/CalculationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java_collection_framework/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_collection_framework/ProductManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,51 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.palindrome">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sort" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Triangle">
+    <configuration name="CalculationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.CalculationExample" />
+      <module name="module2_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IllegalTriangleException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.IllegalTriangleException" />
+      <module name="module2_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.Triangle" />
+      <module name="module2_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="binaryToDecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dsa_stack_queue.binaryToDecimal" />
       <module name="module2_2" />
@@ -74,6 +117,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Triangle" />
+        <item itemvalue="Application.IllegalTriangleException" />
+        <item itemvalue="Application.CalculationExample" />
         <item itemvalue="Application.palindrome" />
         <item itemvalue="Application.binaryToDecimal" />
       </list>
@@ -91,6 +137,8 @@
       <workItem from="1679655592858" duration="7618000" />
       <workItem from="1679913153452" duration="2154000" />
       <workItem from="1680000143011" duration="95000" />
+      <workItem from="1680519762727" duration="359000" />
+      <workItem from="1680520139411" duration="3091000" />
     </task>
     <task id="LOCAL-00001" summary="baitap">
       <created>1679913190602</created>
@@ -106,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679913613565</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="baitap">
+      <created>1680519853662</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680519853662</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
