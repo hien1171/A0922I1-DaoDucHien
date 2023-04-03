@@ -104,7 +104,6 @@ public class ProductManager {
     }
 
   public void sortProduct(){
-
       Collections.sort(productList, Comparator.comparing(Product::getPrice));
 
   }
